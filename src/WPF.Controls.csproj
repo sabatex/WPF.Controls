@@ -3,15 +3,21 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
-    <Company>ntics</Company>
+    <Company>sabatex on git</Company>
     <Product>Controls for WPF Core</Product>
-    <Version>3.1.3.1</Version>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Version>3.1.3.0</Version>
     <Authors>Serhiy Lakas</Authors>
-    <Copyright>2018 Serhiy Lakas</Copyright>
+    <Copyright>2015 Serhiy Lakas</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/sabatex/ntics</RepositoryUrl>
+    <RepositoryUrl>https://github.com/sabatex/WPF.Controls</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageTags>#WPF #Controls</PackageTags>
-    <PackageReleaseNotes>migrate from dotnet 4.6.1</PackageReleaseNotes>
+    <PackageReleaseNotes>Migrate from ntics</PackageReleaseNotes>
     <AssemblyName>sabatex.WPF.Controls</AssemblyName>
     <RootNamespace>sabatex.WPF.Controls</RootNamespace>
   </PropertyGroup>
