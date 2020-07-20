@@ -21,11 +21,11 @@ namespace sabatex.WPF.Controls
     /// </summary>
     public partial class DateTimePeriodSelect : UserControl, INotifyPropertyChanged
     {
-        ntics.DateTimeExtensions.Period period;
+        sabatex.Extensions.DateTimeExtensions.Period period;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public ntics.DateTimeExtensions.Period Period
+        public sabatex.Extensions.DateTimeExtensions.Period Period
         {
             get=>period;
             set 
