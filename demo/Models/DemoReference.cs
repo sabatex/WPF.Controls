@@ -1,10 +1,10 @@
-﻿using ntics.Controls.WPFDemo.Views;
-using sabatex.WPF.Controls;
+﻿using sabatex.WPF.Controls;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using WPF.Controls.Demo.Views;
 
-namespace ntics.Controls.WPFDemo.Models
+namespace WPF.Controls.Demo.Models
 {
     public class DemoReference : IReference<DemoModel>
     {

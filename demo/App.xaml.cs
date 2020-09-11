@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace ntics.Controls.WPFDemo
+namespace WPF.Controls.Demo
 {
     /// <summary>
     /// Interaction logic for App.xaml

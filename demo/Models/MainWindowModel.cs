@@ -1,10 +1,11 @@
-﻿using ntics.DateTimeExtensions;
+﻿using sabatex.Extensions;
+using sabatex.Extensions.DateTimeExtensions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace ntics.Controls.WPFDemo.Models
+namespace WPF.Controls.Demo.Models
 {
     public class MainWindowModel:ObservableObject
     {

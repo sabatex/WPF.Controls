@@ -10,7 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ntics.Controls.WPFDemo.Views
+namespace WPF.Controls.Demo.Views
 {
     /// <summary>
     /// Interaction logic for DemoSelectItem.xaml

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using sabatex.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ntics.Controls.WPFDemo.Models
+namespace WPF.Controls.Demo.Models
 {
     /// <summary>
     /// Demonstrate entity 
