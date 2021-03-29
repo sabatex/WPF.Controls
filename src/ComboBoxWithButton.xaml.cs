@@ -24,6 +24,8 @@ namespace sabatex.WPF.Controls
         {
             InitializeComponent();
         }
+
+
         public static DependencyProperty ItemsSourceProperty;
         public static DependencyProperty SelectedItemProperty;
         static ComboBoxWithButton()

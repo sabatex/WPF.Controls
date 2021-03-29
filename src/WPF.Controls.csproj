@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <Company>sabatex on git</Company>
     <Product>Controls for WPF Core</Product>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <Version>5.0.100-preview.8.0</Version>
+    <Version>5.0.0</Version>
     <Authors>Serhiy Lakas</Authors>
     <Copyright>2015 Serhiy Lakas</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -24,11 +24,7 @@
 
   <ItemGroup>
     <PackageReference Include="AvalonLibrary" Version="2.4.0" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="sabatex.Extensions" Version="3.1.4" />
+    <PackageReference Include="sabatex.Extensions" Version="3.2.0" />
   </ItemGroup>
 
 </Project>
